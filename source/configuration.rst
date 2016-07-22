@@ -1,6 +1,6 @@
-************
+************************************
 Configuración de repositorios GIT
-************
+************************************
 
 GITHUB
 ====================
@@ -12,23 +12,18 @@ BITBUCKET
 ================
 
 .. note::
-   * Paso 1: `Configurar SSH Git Clone URL`_
-   * Paso 2: `Añadir la clave pública en el usuario de Bitbucket`_
-   * Paso 3: `Webhooks Bitbucket`_
+   * Paso 1: **Bitbucket - Localizar la URL SSH Git Clone URL**
+   * Paso 2: **Bitbucket - Añadir la clave pública del Merkinsio al usuario**
+   * Paso 3: **Bitbucket - Webhooks para Merkinsio**
 
-.. _Configurar SSH Git Clone URL: configuration.html#configurar-ssh-git-clone-url
-.. _Añadir la clave pública en el usuario de Bitbucket: configuration.html#id1
-.. _Webhooks Bitbucket: configuration.html#id3
-
-
-Configurar SSH Git Clone URL
--------------
+Bitbucket - Configurar SSH Git Clone URL
+-----------------------------
 
 .. image:: _static/bitbucket/bitbucket_1_ssh_url.png
      :alt: Normal mode
 
-Añadir la clave pública en el usuario de Bitbucket
--------------
+Bitbucket - Añadir la clave pública del Merkinsio al usuario
+-------------------------------------------------------------
 
 Acceder al panel de configuración del usuario de Bitbucket
 
@@ -51,8 +46,8 @@ acceder a este repositorio
 .. image:: _static/bitbucket/bitbucket_5_add_ssh_key.png
     :alt: Normal mode
 
-Webhooks Bitbucket
--------------
+Bitbucket - Webhooks para Merkinsio
+------------------------------------
 
 Para que Merkinsio compile en cada cambio de código es necesario configurar
 un webhook en el respositorio.
@@ -73,23 +68,19 @@ GITLAB
 ==================
 
 .. note::
-   * Paso 1: `Configurar SSH Git Clone URL`_
-   * Paso 2: `Añadir la clave pública en el usuario de Gitlab`_
-   * Paso 3: `Webhooks Gitlab`_
+   * Paso 1: **Gitlab - Localizar la URL SSH Git Clone URL**
+   * Paso 2: **Gitlab - Añadir la clave pública del Merkinsio al usuario**
+   * Paso 3: **Gitlab - Webhooks para Merkinsio**
 
-   .. _Configurar SSH Git Clone URL: #configuration.html#configurar-ssh-git-clone-url
-   .. _Añadir la clave pública en el usuario de Gitlab: #configuration.html#anadir-la-clave-publica-en-el-usuario-de-gitlab
-   .. _Webhooks Gitlab: #configuration.html#id7
-
-Configurar SSH Git Clone URL
--------------
+Gitlab - Localizar la URL SSH Git Clone URL
+--------------------------------------------
 
    .. image:: _static/gitlab/gitlab_1_ssh_url.png
         :alt: Normal mode
 
 
-Añadir la clave pública en el usuario de Gitlab
--------------
+Gitlab - Añadir la clave pública del Merkinsio al usuario
+----------------------------------------------------------
 
 Acceder al panel de perfil del usuario de Bitbucket
 
@@ -109,8 +100,8 @@ acceder a este repositorio
 .. image:: _static/gitlab/gitlab_3_SSH_keys.png
     :alt: Normal mode
 
-Webhooks Gitlab
--------------
+Gitlab - Webhooks para Merkinsio
+---------------------------------
 
 Para que Merkinsio compile en cada cambio de código es necesario configurar
 un webhook en el respositorio.
