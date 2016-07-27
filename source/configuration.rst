@@ -22,6 +22,9 @@ Bitbucket - Configurar SSH Git Clone URL
 .. image:: _static/bitbucket/bitbucket_1_ssh_url.png
      :alt: Normal mode
 
+.. warning::
+    La URL GIT SSH tiene este formato: **git@bitbucket.org:merkinsio/android-hello-world.git**
+
 Bitbucket - Añadir la clave pública del Merkinsio al usuario
 -------------------------------------------------------------
 
@@ -78,6 +81,8 @@ Gitlab - Localizar la URL SSH Git Clone URL
    .. image:: _static/gitlab/gitlab_1_ssh_url.png
         :alt: Normal mode
 
+.. warning::
+    La URL GIT SSH tiene este formato: **git@gitlab.com:merkinsio/android-hello-world.git**
 
 Gitlab - Añadir la clave pública del Merkinsio al usuario
 ----------------------------------------------------------
